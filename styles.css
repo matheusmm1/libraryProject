@@ -1,0 +1,36 @@
+.card {
+    width: 300px;
+    height: 200px;
+    border: solid black 2px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.bookCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10%;
+    padding: 1%;
+}
+
+button {
+    width: 105px;
+    margin: 1px;
+}
+
+form {
+    display: flex;
+    gap: 5px;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}

@@ -43,8 +43,8 @@ function addBookToLibrary() {
   myLibrary.forEach(function (item, index, array) {
     if (index === array.length - 1) {
       newCard.textContent = `Author name: ${author}`;
-      newCard.textContent += ` -- Book title: ${title}`;
-      newCard.textContent += ` -- Number of pages: ${numOfPages}`;
+      newCard.textContent += ` | Book title: ${title}`;
+      newCard.textContent += ` | Number of pages: ${numOfPages}`;
     }
   });
 
